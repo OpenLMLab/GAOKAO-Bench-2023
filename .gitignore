@@ -4,6 +4,6 @@ Raw_Data/
 Results/
 Bench/OBJ_score_evaluation.py
 *.zip
-*.py
+prepare_data.py
 README_v0.md
 **/.DS_Store
