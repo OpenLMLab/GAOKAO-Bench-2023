@@ -1,0 +1,544 @@
+{
+    "keywords": "2023_Math_MCQs",
+    "example": [
+        {
+            "year": "2023",
+            "category": "全国甲卷理科",
+            "question": "1. 设集合 $A=\\{x \\quad x=3 k+1, k \\in Z\\}, B=\\{x \\quad x=3 k+2, k \\in Z\\}, U$ 为整数集， $\\mathbf{U}(A \\cup B)=(\\cdots)$\nA. $\\{x \\mid x=3 k, k \\in \\mathbf{Z}\\}$\nB. $\\{x \\mid x=3 k-1, k \\in Z\\}$\nC. $\\{x \\mid x=3 k-2, k \\in Z\\}$\nD. $\\varnothing$",
+            "answer": [
+                "A"
+            ],
+            "analysis": "【详解】因为整数集 $\\mathbf{Z}=\\{x \\mid x=3 k, k \\in \\mathbf{Z}\\} \\bigcup\\{x \\mid x=3 k+1, k \\in \\mathbf{Z}\\} \\bigcup\\{x \\mid x=3 k+2, k \\in \\mathbf{Z}\\}, U=Z$, 所以, ${ }_U(A \\bigcup B)=\\{x \\mid x=3 k, k \\in \\mathbf{Z}\\}$.\n故选: A.",
+            "index": 0,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷理科",
+            "question": "2. 若复数 $(a+\\mathrm{i})(1-a \\mathrm{i})=2, a \\in \\mathrm{R}$, 则 $a=(\\quad)$\nA. -1\nB. 0\nC. 1\nD. 2",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】因为 $(a+\\mathrm{i})(1-a \\mathrm{i})=a-a^2 \\mathrm{i}+\\mathrm{i}+a=2 a+\\left(1-a^2\\right) \\mathrm{i}=2$,所以 $\\left\\{\\begin{array}{l}2 a=2 \\\\ 1-a^2=0\\end{array}\\right.$, 解得: $a=1$.故选: C.",
+            "index": 1,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷理科",
+            "question": "4. 向量 $|\\vec{a}|=|\\vec{b}|=1,|\\vec{c}|=\\sqrt{2}$, 且 $\\vec{a}+\\vec{b}+\\vec{c}=\\overrightarrow{0}$, 则 $\\cos \\langle\\vec{a}-\\vec{c}, \\vec{b}-\\vec{c}\\rangle=()$\nA. $-\\frac{1}{5}$\nB. $-\\frac{2}{5}$\nC. $\\frac{2}{5}$\nD. $\\frac{4}{5}$",
+            "answer": [
+                "D"
+            ],
+            "analysis": "由题知, $O A=O B=1, O C=\\sqrt{2}, \\triangle O A B$ 是等腰直角三角形, $A B$ 边上的高 $O D=\\frac{\\sqrt{2}}{2}, A D=\\frac{\\sqrt{2}}{2}$,\n所以 $C D=C O+O D=\\sqrt{2}+\\frac{\\sqrt{2}}{2}=\\frac{3 \\sqrt{2}}{2}$,\n$$\n\\begin{aligned}\n& \\tan \\angle A C D=\\frac{A D}{C D}=\\frac{1}{3}, \\cos \\angle A C D=\\frac{3}{\\sqrt{10}} \\\\\n& \\cos \\langle\\vec{a}-\\vec{c}, \\vec{b}-\\vec{c}\\rangle=\\cos \\angle A C B=\\cos 2 \\angle A C D=2 \\cos ^2 \\angle A C D-1 \\\\\n& =2 \\times\\left(\\frac{3}{\\sqrt{10}}\\right)^2-1=\\frac{4}{5}\n\\end{aligned}\n$$\n故选:D.",
+            "index": 2,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷理科",
+            "question": "5. 已知正项等比数列 $\\left\\{a_n\\right\\}$ 中, $a_1=1, S_n$ 为 $\\left\\{a_n\\right\\}$ 前 $n$ 项和, $S_5=5 S_3-4$, 则 $S_4=()$\nA. 7\nB. 9\nC. 15\nD. 30",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】由题知 $1+q+q^2+q^3+q^4=5\\left(1+q+q^2\\right)-4$,即 $q^3+q^4=4 q+4 q^2$, 即 $q^3+q^2-4 q-4=0$, 即 $(q-2)(q+1)(q+2)=0$.由题知 $q>0$, 所以 $q=2$.\n所以 $S_4=1+2+4+8=15$.故选:C.",
+            "index": 3,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷理科",
+            "question": "6. 有 50 人报名足球俱乐部, 60 人报名乒乓球俱乐部, 70 人报名足球或乒乓球俱乐部, 若已知某人报足球俱乐部, 则其报乒乓球俱乐部的概率为 $()$\nA. 0.8\nB. 0.4\nC. 0.2\nD. 0.1",
+            "answer": [
+                "A"
+            ],
+            "analysis": "【详解】报名两个俱乐部的人数为 $50+60-70=40$,记 “某人报足球俱乐部” 为事件 A, 记 “某人报兵乓球俱乐部” 为事件 $B$,则 $P(A)=\\frac{50}{70}=\\frac{5}{7}, P(A B)=\\frac{40}{70}=\\frac{4}{7}$,所以 $P(B \\mid A)=\\frac{P(A B)}{P(A)}=\\frac{\\frac{4}{7}}{\\frac{5}{7}}=0.8$.故选: A",
+            "index": 4,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷理科",
+            "question": "7. “ $\\sin ^2 \\alpha+\\sin ^2 \\beta=1$ ”是“ $\\sin \\alpha+\\cos \\beta=0$ ”的 ( )\nA. 充分条件但不是必要条件\nB. 必要条件但不是充分条件\nC. 充要条件\nD. 既不是充分条件也不是必要条件",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【详解】当 $\\sin ^2 \\alpha+\\sin ^2 \\beta=1$ 时, 例如 $\\alpha=\\frac{\\pi}{2}, \\beta=0$ 但 $\\sin \\alpha+\\cos \\beta \\neq 0$,即 $\\sin ^2 \\alpha+\\sin ^2 \\beta=1$ 推不出 $\\sin \\alpha+\\cos \\beta=0$;当 $\\sin \\alpha+\\cos \\beta=0$ 时, $\\sin ^2 \\alpha+\\sin ^2 \\beta=(-\\cos \\beta)^2+\\sin ^2 \\beta=1$,即 $\\sin \\alpha+\\cos \\beta=0$ 能推出 $\\sin ^2 \\alpha+\\sin ^2 \\beta=1$.综上可知, $\\sin ^2 \\alpha+\\sin ^2 \\beta=1$ 是 $\\sin \\alpha+\\cos \\beta=0$ 成立的必要不充分条件.故选: B",
+            "index": 5,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷理科",
+            "question": "8. 已知双曲线 $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1(a>0, b>0)$ 的离心率为 $\\sqrt{5}$, 其中一条渐近线与圆 $(x-2)^2+(y-3)^2=1$ 交于 $A$, $B$ 两点, 则 $|A B|=()$\nA. $\\frac{1}{5} \\quad \\rightarrow$\nB. $\\frac{\\sqrt{5}}{5} \\rightarrow$\nC. $\\frac{2 \\sqrt{5}}{5} \\rightarrow$\nD. $\\frac{4 \\sqrt{5}}{5}$",
+            "answer": [
+                "D"
+            ],
+            "analysis": "【详解】由 $e=\\sqrt{5}$, 则 $\\frac{c^2}{a^2}=\\frac{a^2+b^2}{a^2}=1+\\frac{b^2}{a^2}=5$,解得 $\\frac{b}{a}=2$,",
+            "index": 6,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "所以双曲线的一条渐近线不妨取 $y=2 x$,\n则圆心 $(2,3)$ 到渐近线 距离 $d=\\frac{|2 \\times 2-3|}{\\sqrt{2^2+1}}=\\frac{\\sqrt{5}}{5}$,",
+            "question": "9. 有五名志愿者参加社区服务, 共服务星期六、星期天两天, 每天从中任选两人参加服务, 则恰有 1 人连续参加两天服务的选择种数为 $()$\nA. 120\nB. 60\nC. 40\nD. 30",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【详解】不妨记五名志愿者为 $a, b, c, d, e$,\n假设 $a$ 连续参加了两天社区服务, 再从剩余的 4 人抽取 2 人各参加星期六与星期天的社区服务, 共有 $\\mathrm{A}_4^2=12$种方法,\n同理: $b, c, d, e$ 连续参加了两天社区服务, 也各有 12 种方法,\n所以恰有 1 人连续参加了两天社区服务的选择种数有 $5 \\times 12=60$ 种.\n故选: B.",
+            "index": 7,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷理科",
+            "question": "10. 已知 $f(x)$ 为函数 $y=\\cos \\left(2 x+\\frac{\\pi}{6}\\right)$ 向左平移 $\\frac{\\pi}{6}$ 个单位所得函数, 则 $y=f(x)$ 与 $y=\\frac{1}{2} x-\\frac{1}{2}$ 的交点个数为 $()$\nA. 1\nB. 2\nC. 3\nD. 4",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】因为 $y=\\cos \\left(2 x+\\frac{\\pi}{6}\\right)$ 向左平移 $\\frac{\\pi}{6}$ 个单位所得函数为\n$y=\\cos \\left[2\\left(x+\\frac{\\pi}{6}\\right)+\\frac{\\pi}{6}\\right]=\\cos \\left(2 x+\\frac{\\pi}{2}\\right)=-\\sin 2 x$, 所以 $f(x)=-\\sin 2 x$,\n而 $y=\\frac{1}{2} x-\\frac{1}{2}$ 显然过 $\\left(0,-\\frac{1}{2}\\right)$ 与 $(1,0)$ 两点,\n作出 $f(x)$ 与 $y=\\frac{1}{2} x-\\frac{1}{2}$ 的部分大致图像如下,\n考虑 $2 x=-\\frac{3 \\pi}{2}, 2 x=\\frac{3 \\pi}{2}, 2 x=\\frac{7 \\pi}{2}$, 即 $x=-\\frac{3 \\pi}{4}, x=\\frac{3 \\pi}{4}, x=\\frac{7 \\pi}{4}$ 处 $f(x)$ 与 $y=\\frac{1}{2} x-\\frac{1}{2}$ 的大小关系,\n当 $x=-\\frac{3 \\pi}{4}$ 时, $f\\left(-\\frac{3 \\pi}{4}\\right)=-\\sin \\left(-\\frac{3 \\pi}{2}\\right)=-1, y=\\frac{1}{2} \\times\\left(-\\frac{3 \\pi}{4}\\right)-\\frac{1}{2}=-\\frac{3 \\pi+4}{8}<-1 ;$\n当 $x=\\frac{3 \\pi}{4}$ 时, $f\\left(\\frac{3 \\pi}{4}\\right)=-\\sin \\frac{3 \\pi}{2}=1, y=\\frac{1}{2} \\times \\frac{3 \\pi}{4}-\\frac{1}{2}=\\frac{3 \\pi-4}{8}<1$ ；\n当 $x=\\frac{7 \\pi}{4}$ 时, $f\\left(\\frac{7 \\pi}{4}\\right)=-\\sin \\frac{7 \\pi}{2}=1, y=\\frac{1}{2} \\times \\frac{7 \\pi}{4}-\\frac{1}{2}=\\frac{7 \\pi-4}{8}>1$;\n所以由图可知, $f(x)$ 与 $y=\\frac{1}{2} x-\\frac{1}{2}$ 的交点个数为 3 .",
+            "index": 8,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷理科",
+            "question": "11. 在四棱雉 $P-A B C D$ 中, 底面 $A B C D$ 为正方形, $A B=4, P C=P D=3, \\angle P C A=45^{\\circ}$, 则 $\\triangle \\mathrm{PBC}$ 的面积为 $()$\nA. $2 \\sqrt{2}$\nB. $3 \\sqrt{2}$\nC. $4 \\sqrt{2}$\nD. $5 \\sqrt{2}$",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【分析】法一: 利用全等三角形的证明方法依次证得 $\\triangle P D O \\cong \\triangle P C O, \\triangle P D B \\cong \\triangle P C A$, 从而得到 $P A=P B$,再在 $\\triangle P A C$ 中利用余弦定理求得 $P A=\\sqrt{17}$, 从而求得 $P B=\\sqrt{17}$, 由此在 $\\triangle \\mathrm{PBC}$ 中利用余弦定理与三角形面积公式即可得解;",
+            "index": 9,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷理科",
+            "question": "12. 已知椭圆 $\\frac{x^2}{9}+\\frac{y^2}{6}=1, F_1, F_2$ 为两个焦点, $O$ 为原点, $P$ 为椭圆上一点, $\\cos \\angle F_1 P F_2=\\frac{3}{5}$, 则 $|P O|=$ $()$\nA. $\\frac{2}{5}$\nB. $\\frac{\\sqrt{30}}{2}$\nC. $\\frac{3}{5}$\nD. $\\frac{\\sqrt{35}}{2}$",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【详解】方法一: 设 $\\angle F_1 P F_2=2 \\theta, 0<\\theta<\\frac{\\pi}{2}$, 所以 $S_{\\triangle P F_1 F_2}=b^2 \\tan \\frac{\\angle F_1 P F_2}{2}=b^2 \\tan \\theta$,由 $\\cos \\angle F_1 P F_2=\\cos 2 \\theta=\\frac{\\cos ^2 \\theta-\\sin ^2 \\theta}{\\cos ^2 \\theta+\\sin ^2 \\theta}=\\frac{1-\\tan ^2 \\theta}{1+\\tan ^2 \\theta}=\\frac{3}{5}$, 解得: $\\tan \\theta=\\frac{1}{2}$,由粗圆方程可知, $a^2=9, b^2=6, c^2=a^2-b^2=3$,所以, $S_{\\triangle P F_1 F_2}=\\frac{1}{2} \\times\\left|F_1 F_2\\right| \\times\\left|y_p\\right|=\\frac{1}{2} \\times 2 \\sqrt{3} \\times\\left|y_p\\right|=6 \\times \\frac{1}{2}$, 解得: $y_p^2=3$,\n即 $x_p^2=9 \\times\\left(1-\\frac{3}{6}\\right)=\\frac{9}{2}$, 因此 $|O P|=\\sqrt{x_p^2+y_p^2}=\\sqrt{3+\\frac{9}{2}}=\\frac{\\sqrt{30}}{2}$.故选: B.",
+            "index": 10,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷文科",
+            "question": "1. 设全集 $U=\\{1,2,3,4,5\\}$, 集合 $M=\\{1,4\\}, N=\\{2,5\\}$, 则 $N \\cup{ }_U M=()$\nA $\\{2,3,5\\}$\nB. $\\{1,3,4\\}$\nC. $\\{1,2,4,5\\}$\nD. $\\{2,3,4,5\\}$",
+            "answer": [
+                "A"
+            ],
+            "analysis": "【详解】因为全集 $U=\\{1,2,3,4,5\\}$, 集合 $M=\\{1,4\\}$, 所以 ${ }_U M=\\{2,3,5\\}$,又 $N=\\{2,5\\}$, 所以 $N \\bigcup{ }_U M=\\{2,3,5\\}$,故选: A.",
+            "index": 11,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷文科",
+            "question": "2. $\\frac{5\\left(1+\\mathrm{i}^3\\right)}{(2+\\mathrm{i})(2-\\mathrm{i})}=()$\nA. -1\nB. 1\nC. $1-\\mathrm{i}$\nD. $1+\\mathrm{i}$",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】 $\\frac{5\\left(1+\\mathrm{i}^3\\right)}{(2+\\mathrm{i})(2-\\mathrm{i})}=\\frac{5(1-\\mathrm{i})}{5}=1-\\mathrm{i}$故选: C.",
+            "index": 12,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷文科",
+            "question": "3. 已知向量 $\\vec{a}=(3,1), \\vec{b}=(2,2)$, 则 $\\cos \\langle\\vec{a}+\\vec{b}, \\vec{a}-\\vec{b}\\rangle=()$\nA. $\\frac{1}{17}$\nB. $\\frac{\\sqrt{17}}{17}$\nC. $\\frac{\\sqrt{5}}{5}$\nD. $\\frac{2 \\sqrt{5}}{5}$",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【详解】因为 $\\vec{a}=(3,1), \\vec{b}=(2,2)$, 所以 $\\vec{a}+\\vec{b}=(5,3), \\vec{a}-\\vec{b}=(1,-1)$,则 $|\\vec{a}+\\vec{b}|=\\sqrt{5^2+3^2}=\\sqrt{34},|\\vec{a}-\\vec{b}|=\\sqrt{1+1}=\\sqrt{2},(\\vec{a}+\\vec{b}) \\cdot(\\vec{a}-\\vec{b})=5 \\times 1+3 \\times(-1)=2$,所以 $\\cos \\langle\\vec{a}+\\vec{b}, \\vec{a}-\\vec{b}\\rangle=\\frac{(\\vec{a}+\\vec{b}) \\cdot(\\vec{a}-\\vec{b})}{|\\vec{a}+\\vec{b}||\\vec{a}-\\vec{b}|}=\\frac{2}{\\sqrt{34} \\times \\sqrt{2}}=\\frac{\\sqrt{17}}{17}$.故选: B.",
+            "index": 13,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷文科",
+            "question": "4. 某校文艺部有 4 名学生, 其中高一、高二年级各 2 名. 从这 4 名学生中随机选 2 名组织校文艺汇演, 则这 2 名学生来自不同年级的概率为 $()$\nA. $\\frac{1}{6}$\nB. $\\frac{1}{3}$\nC. $\\frac{1}{2}$\nD. $\\frac{2}{3}$",
+            "answer": [
+                "D"
+            ],
+            "analysis": "【详解】依题意, 从这 4 名学生中随机选 2 名组织校文艺汇演, 总的基本事件有 $\\mathrm{C}_4^2=6$ 件,其中这 2 名学生来自不同年级的基本事件有 $\\mathrm{C}_2^1 \\mathrm{C}_2^1=4$,所以这 2 名学生来自不同年级的概率为 $\\frac{4}{6}=\\frac{2}{3}$.故选: D.",
+            "index": 14,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷文科",
+            "question": "5. 记 $S_n$ 为等差数列 $\\left\\{a_n\\right\\}$ 的前 $n$ 项和. 若 $a_2+a_6=10, a_4 a_8=45$, 则 $S_5=()$\nA. 25\nB. 22\nC. 20\nD. 15",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】方法一：设等差数列 $\\left\\{a_n\\right\\}$ 的公差为 $d$, 首项为 $a_1$, 依题意可得, $a_2+a_6=a_1+d+a_1+5 d=10$, 即 $a_1+3 d=5$,又 $a_4 a_8=\\left(a_1+3 d\\right)\\left(a_1+7 d\\right)=45$, 解得: $d=1, a_1=2$,所以 $S_5=5 a_1+\\frac{5 \\times 4}{2} \\times d=5 \\times 2+10=20$.故选: C.",
+            "index": 15,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "方法二: $a_2+a_6=2 a_4=10, a_4 a_8=45$, 所以 $a_4=5, a_8=9$,从而 $d=\\frac{a_8-a_4}{8-4}=1$, 于是 $a_3=a_4-d=5-1=4$,所以 $S_5=5 a_3=20$.故选: C\n全国甲卷文科",
+            "question": "7. 设 $F_1, F_2$ 为椭圆 $C: \\frac{x^2}{5}+y^2=1$ 的两个焦点, 点 $P$ 在 $C$ 上, 若 $\\overrightarrow{P F_1} \\cdot \\overrightarrow{P F_2}=0$, 则 $\\left|P F_1\\right| \\cdot\\left|P F_2\\right|=()$\nA. 1\nB. 2\nC. 4\nD. 5",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【详解】方法一: 因为 $\\overrightarrow{P F_1} \\cdot \\overrightarrow{P F_2}=0$, 所以 $\\angle F P_1 F_2=90^{\\circ}$,从而 $S_{\\triangle F P_1 F_2}=b^2 \\tan 45^{\\circ}=1=\\frac{1}{2} \\times\\left|P F_1\\right| \\cdot\\left|P F_2\\right|$, 所以 $\\left|P F_1\\right| \\cdot\\left|P F_2\\right|=2$.故选: B.\n方法二:\n因为 $\\overrightarrow{P F_1} \\cdot \\overrightarrow{P F_2}=0$, 所以 $\\angle F P_1 F_2=90^{\\circ}$, 由椭圆方程可知, $c^2=5-1=4 \\Rightarrow c=2$,所以 $\\left|P F_1\\right|^2+\\left|P F_2\\right|^2=\\left|F_1 F_2\\right|^2=4^2=16$, 又 $\\left|P F_1\\right|+\\left|P F_2\\right|=2 a=2 \\sqrt{5}$, 平方得: $\\left|P F_1\\right|^2+\\left|P F_2\\right|^2+2\\left|P F_1\\right|\\left|P F_2\\right|=16+2\\left|P F_1\\right|\\left|P F_2\\right|=20$, 所以 $\\left|P F_1\\right| \\cdot\\left|P F_2\\right|=2$.故选: B.",
+            "index": 16,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷文科",
+            "question": "8. 曲线 $y=\\frac{\\mathrm{e}^x}{x+1}$ 在点 $\\left(1, \\frac{\\mathrm{e}}{2}\\right)$ 处的切线方程为 $()$\nA. $y=\\frac{\\mathrm{e}}{4} x \\quad \\rightarrow$\nB. $y=\\frac{\\mathrm{e}}{2} x$\nC. $y=\\frac{\\mathrm{e}}{4} x+\\frac{\\mathrm{e}}{4} \\rightarrow$\nD. $y=\\frac{\\mathrm{e}}{2} x+\\frac{3 \\mathrm{e}}{4}$",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】设曲线 $y=\\frac{\\mathrm{e}^x}{x+1}$ 在点 $\\left(1, \\frac{\\mathrm{e}}{2}\\right)$ 处的切线方程为 $y-\\frac{\\mathrm{e}}{2}=k(x-1)$,\n因为 $y=\\frac{\\mathrm{e}^x}{x+1}$,\n所以 $y^{\\prime}=\\frac{\\mathrm{e}^x(x+1)-\\mathrm{e}^x}{(x+1)^2}=\\frac{x \\mathrm{e}^x}{(x+1)^2}$,\n所以 $k=\\left.y^{\\prime}\\right|_{x=1}=\\frac{\\mathrm{e}}{4}$\n所以 $y-\\frac{\\mathrm{e}}{2}=\\frac{\\mathrm{e}}{4}(x-1)$\n所以曲线 $y=\\frac{\\mathrm{e}^x}{x+1}$ 在点 $\\left(1, \\frac{\\mathrm{e}}{2}\\right)$ 处的切线方程为 $y=\\frac{\\mathrm{e}}{4} x+\\frac{\\mathrm{e}}{4}$.\n故选: C",
+            "index": 17,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷文科",
+            "question": "9. 已知双曲线 $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1(a>0, b>0)$ 的离心率为 $\\sqrt{5}$, 其中一条渐近线与圆 $(x-2)^2+(y-3)^2=1$ 交于 $A, B$ 两点, 则 $|A B|=()$\nA. $\\frac{\\sqrt{5}}{5}$\nB. $\\frac{2 \\sqrt{5}}{5}$\nC. $\\frac{3 \\sqrt{5}}{5}$\nD. $\\frac{4 \\sqrt{5}}{5}$",
+            "answer": [
+                "D"
+            ],
+            "analysis": "【详解】由 $e=\\sqrt{5}$, 则 $\\frac{c^2}{a^2}=\\frac{a^2+b^2}{a^2}=1+\\frac{b^2}{a^2}=5$,解得 $\\frac{b}{a}=2$,所以双曲线的一条渐近线不妨取 $y=2 x$,则圆心 $(2,3)$ 到渐近线的距离 $d=\\frac{|2 \\times 2-3|}{\\sqrt{2^2+1}}=\\frac{\\sqrt{5}}{5}$,所以弦长 $|A B|=2 \\sqrt{r^2-d^2}=2 \\sqrt{1-\\frac{1}{5}}=\\frac{4 \\sqrt{5}}{5}$.故选: D",
+            "index": 18,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷文科",
+            "question": "10. 在三棱雉 $P-A B C$ 中, $\\triangle A B C$ 是边长为 2 的等边三角形, $P A=P B=2, P C=\\sqrt{6}$, 则该棱雉的体积为 $()$\nA. 1\nB. $\\sqrt{3}$\nC. 2\nD. 3",
+            "answer": [
+                "A"
+            ],
+            "analysis": "【详解】取 $A B$ 中点 $E$, 连接 $P E, C E$, 如图,\n$\\because \\triangle A B C$ 是边长为 2 的等边三角形, $P A=P B=2$,\n$\\therefore P E \\perp A B, C E \\perp A B$, 又 $P E, C E \\subset$ 平面 $P E C, P E \\cap C E=E$,\n$\\therefore A B \\perp$ 平面 $P E C$,\n又 $P E=C E=2 \\times \\frac{\\sqrt{3}}{2}=\\sqrt{3}, P C=\\sqrt{6}$,\n故 $P C^2=P E^2+C E^2$, 即 $P E \\perp C E$,\n所以 $V=V_{B-P E C}+V_{A-P E C}=\\frac{1}{3} S_{\\text {P } P E C} \\cdot A B=\\frac{1}{3} \\times \\frac{1}{2} \\times \\sqrt{3} \\times \\sqrt{3} \\times 2=1$,\n故选: A",
+            "index": 19,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷文科",
+            "question": "11. 已知函数 $f(x)=\\mathrm{e}^{-(x-1)^2}$. 记 $a=f\\left(\\frac{\\sqrt{2}}{2}\\right), b=f\\left(\\frac{\\sqrt{3}}{2}\\right), c=f\\left(\\frac{\\sqrt{6}}{2}\\right)$, 则 $()$\nA. $b>c>a$\nB. $b>a>c$\nC. $c>b>a$\nD. $c>a>b$",
+            "answer": [
+                "A"
+            ],
+            "analysis": "【详解】令 $g(x)=-(x-1)^2$, 则 $g(x)$ 开口向下, 对称轴为 $x=1$,\n因为 $\\frac{\\sqrt{6}}{2}-1-\\left(1-\\frac{\\sqrt{3}}{2}\\right)=\\frac{\\sqrt{6}+\\sqrt{3}}{2}-\\frac{4}{2}$, 而 $(\\sqrt{6}+\\sqrt{3})^2-4^2=9+6 \\sqrt{2}-16=6 \\sqrt{2}-7>0$,\n所以 $\\frac{\\sqrt{6}}{2}-1-\\left(1-\\frac{\\sqrt{3}}{2}\\right)=\\frac{\\sqrt{6}+\\sqrt{3}}{2}-\\frac{4}{2}>0$, 即 $\\frac{\\sqrt{6}}{2}-1>1-\\frac{\\sqrt{3}}{2}$\n由二次函数性质知 $g\\left(\\frac{\\sqrt{6}}{2}\\right)<g\\left(\\frac{\\sqrt{3}}{2}\\right)$,\n因为 $\\frac{\\sqrt{6}}{2}-1-\\left(1-\\frac{\\sqrt{2}}{2}\\right)=\\frac{\\sqrt{6}+\\sqrt{2}}{2}-\\frac{4}{2}$, 而 $(\\sqrt{6}+\\sqrt{2})^2-4^2=8+4 \\sqrt{3}-16=4 \\sqrt{3}-8=4(\\sqrt{3}-2)<0$,\n即 $\\frac{\\sqrt{6}}{2}-1<1-\\frac{\\sqrt{2}}{2}$, 所以 $g\\left(\\frac{\\sqrt{6}}{2}\\right)>g\\left(\\frac{\\sqrt{2}}{2}\\right)$,\n综上, $g\\left(\\frac{\\sqrt{2}}{2}\\right)<g\\left(\\frac{\\sqrt{6}}{2}\\right)<g\\left(\\frac{\\sqrt{3}}{2}\\right)$ ，\n又 $y=\\mathrm{e}^x$ 为增函数, 故 $a<c<b$, 即 $b>c>a$.\n故选: A.",
+            "index": 20,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国甲卷文科",
+            "question": "12. 函数 $y=f(x)$ 的图象由 $y=\\cos \\left(2 x+\\frac{\\pi}{6}\\right)$ 的图象向左平移 $\\frac{\\pi}{6}$ 个单位长度得到, 则 $y=f(x)$ 的图象与直线 $y=\\frac{1}{2} x-\\frac{1}{2}$ 的交点个数为 $()$\nA. 1\nB. 2\nC. 3\nD. 4",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】因为 $y=\\cos \\left(2 x+\\frac{\\pi}{6}\\right)$ 向左平移 $\\frac{\\pi}{6}$ 个单位所得函数为\n$y=\\cos \\left[2\\left(x+\\frac{\\pi}{6}\\right)+\\frac{\\pi}{6}\\right]=\\cos \\left(2 x+\\frac{\\pi}{2}\\right)=-\\sin 2 x$, 所以 $f(x)=-\\sin 2 x$,\n而 $y=\\frac{1}{2} x-\\frac{1}{2}$ 显然过 $\\left(0,-\\frac{1}{2}\\right)$ 与 $(1,0)$ 两点,\n作出 $f(x)$ 与 $y=\\frac{1}{2} x-\\frac{1}{2}$ 的部分大致图像如下,\n考虑 $2 x=-\\frac{3 \\pi}{2}, 2 x=\\frac{3 \\pi}{2}, 2 x=\\frac{7 \\pi}{2}$, 即 $x=-\\frac{3 \\pi}{4}, x=\\frac{3 \\pi}{4}, x=\\frac{7 \\pi}{4}$ 处 $f(x)$ 与 $y=\\frac{1}{2} x-\\frac{1}{2}$ 的大小关系,当 $x=-\\frac{3 \\pi}{4}$ 时, $f\\left(-\\frac{3 \\pi}{4}\\right)=-\\sin \\left(-\\frac{3 \\pi}{2}\\right)=-1, y=\\frac{1}{2} \\times\\left(-\\frac{3 \\pi}{4}\\right)-\\frac{1}{2}=-\\frac{3 \\pi+4}{8}<-1$;\n当 $x=\\frac{3 \\pi}{4}$ 时, $f\\left(\\frac{3 \\pi}{4}\\right)=-\\sin \\frac{3 \\pi}{2}=1, y=\\frac{1}{2} \\times \\frac{3 \\pi}{4}-\\frac{1}{2}=\\frac{3 \\pi-4}{8}<1$ ；\n当 $x=\\frac{7 \\pi}{4}$ 时, $f\\left(\\frac{7 \\pi}{4}\\right)=-\\sin \\frac{7 \\pi}{2}=1, y=\\frac{1}{2} \\times \\frac{7 \\pi}{4}-\\frac{1}{2}=\\frac{7 \\pi-4}{8}>1$;\n所以由图可知, $f(x)$ 与 $y=\\frac{1}{2} x-\\frac{1}{2}$ 的交点个数为 3 .\n故选: C.",
+            "index": 21,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "1. (2023.全国乙卷) 设 $z=\\frac{2+i}{1+i^2+i^5}$, 则 $\\bar{z}=()$\nA. $1-2 i$\nB. $1+2 i$\nC. $2-i$\nD. $2+i$",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【解析】【解答】 $\\because i^5=i \\times i^4=i, i^2=-1$\n$$\n\\begin{aligned}\n& \\therefore z=\\frac{2+i}{1+i^2+i^5}=\\frac{2+i}{i}=\\frac{(2+i) i}{i^2}=\\frac{2 i-1}{-1}=1-2 i \\\\\n& \\therefore \\bar{z}=1+2 i\n\\end{aligned}\n$$\n故选: B.",
+            "index": 22,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "2. (2023. 全国乙卷) 设集合 $U=R$, 集合 $M=\\{x \\mid x<1\\}, N=\\{x \\mid-1<x<2\\}$, 则 $\\{x \\mid x \\geq 2\\}=$ ()\nA. $\\mathrm{C}_U(M \\cup N)$\nB. $N \\cup C_U M$\nC. $C_U(M \\cap N)$\nD. $M \\cup C_U N$",
+            "answer": [
+                "A"
+            ],
+            "analysis": "【解析】【解答】根据题意\n对 A, $M \\cup N=\\{x \\mid x<2\\}$, 则 $C_U(M \\cup N)=\\{x \\mid x \\geq 2\\}$, 符合题意,对 B, $C_u M=\\{x \\mid x \\geq 1\\}$, 则 $N \\cup C_U M=\\{x \\mid x>-1\\}$, 不符合题意,对 C, $M \\cap N=\\{x \\mid-1<x<1\\}$, 则 $C_U(M \\cap N)=\\{x \\mid x \\geq 1$ 或 $x \\leq-1\\}$, 不符合题意,对 D, $C_u N=\\{x \\mid x \\geq 2$ 或 $x \\leq-1\\}$, 则 $M \\cup C_U N=\\{x \\mid x<1$ 或 $x \\geq 2\\}$, 不符合题意,故选：A.",
+            "index": 23,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "4. (2023. 全国乙卷) 已知 $f(x)=\\frac{x e^x}{e^{a x}-1}$ 是偶函数, 则 $a=()$\nA. -2\nB. -1\nC. 1\nD. 2",
+            "answer": [
+                "D"
+            ],
+            "analysis": "【解析】【解答】 $\\because f(x)=\\frac{x e^x}{e^{a x}-1}$ 是偶函数,\n$\\therefore f(x)-f(-x)=\\frac{x e^x}{e^{a x}-1}-\\frac{-x e^{-x}}{e^{-a x}-1}=\\frac{x\\left(e^x-e^{(a-1) x}\\right)}{e^{a x}-1}=0$ 恒成立,\n$\\because x$ 不恒为 0 ,\n$\\therefore e^x-e^{(a-1) x}=0$, 解得 $a=2$.\n当 $a=2$ 时定义域为 $x \\neq 0$ 关于原点对称, 又满足 $f(x)-f(-x)=0, \\therefore f(x)$ 为偶函数。故选: D",
+            "index": 24,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "5. (2023.全国乙卷) 设 $\\mathrm{O}$ 为平面坐标系的坐标原点, 在区域 $\\left\\{(x, y) \\mid 1 \\leq x^2+y^2 \\leq 4\\right\\}$ 内随机取一点, 记该点为 $\\mathrm{A}$, 则直线 $\\mathrm{OA}$ 的倾斜角不大于 $\\frac{\\pi}{4}$ 的概率为 ( )\nA. $\\frac{1}{8}$\nB. $\\frac{1}{6}$\nC. $\\frac{1}{4}$\nD. $\\frac{1}{2}$",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【解析】【解答】 $\\because$ 区域 $\\left\\{(x, y) \\mid 1 \\leqslant x^2+y^2 \\leqslant 4\\right\\}$ 表示以 $O(0,0)$ 圆心, 半径为 $R=2$ 和半径为 $r=1$组成的圆环,\n$\\therefore$ 直线 $O A$ 倾斜角不大于 $\\frac{\\pi}{4}$ 为如下阴影部分表示的区域, 其中 $\\angle M O N=\\frac{\\pi}{4}$, 结合对称性可得所求概率 $P=\\frac{2 \\times \\frac{\\pi}{4}}{2 \\pi}=\\frac{1}{4}$\n故选: C. ",
+            "index": 25,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "6. (2023. 全国乙卷) 已知函数 $f(x)=\\sin (\\omega x+\\varphi)$ 在区间 $\\left(\\frac{\\pi}{6}, \\frac{2 \\pi}{3}\\right)$ 单调递增, 直线 $x=\\frac{\\pi}{6}$ 和 $x=\\frac{2 \\pi}{3}$ 为函数 $y=f(x)$ 的图像的两条对称轴, 则 $f\\left(-\\frac{5 \\pi}{12}\\right)=()$\nA. $-\\frac{\\sqrt{3}}{2}$\nB. $-\\frac{1}{2}$\nC. $\\frac{1}{2}$\nD. $\\frac{\\sqrt{3}}{2}$",
+            "answer": [
+                "D"
+            ],
+            "analysis": "【解析】【解答】 $\\because f(x)=\\sin (\\omega x+\\varphi)$ 在区间 $\\left(\\frac{\\pi}{6}, \\frac{2 \\pi}{3}\\right)$ 单调递增, 又 $x=\\frac{\\pi}{6}$ 和 $x=\\frac{2 \\pi}{3}$ 是 $y=f(x)$ 的对称轴, $\\therefore f\\left(\\frac{\\pi}{6}\\right)=-1,\\left|\\frac{\\pi}{6}-\\frac{2 \\pi}{3}\\right|=\\frac{T}{2}=\\frac{2 \\pi}{2 \\omega}$, 解得 $\\omega=2$,\n$$\n\\begin{aligned}\n& \\therefore f\\left(\\frac{\\pi}{6}\\right)=\\sin \\left(\\frac{\\pi}{3}+\\varphi\\right)=-1, \\text { 即 } \\frac{\\pi}{3}+\\varphi=2 k \\pi-\\frac{\\pi}{2}, \\therefore \\varphi=2 k \\pi-\\frac{5 \\pi}{6}, \\\\\n& \\therefore f\\left(-\\frac{5 \\pi}{12}\\right)=\\sin \\left(-\\frac{5 \\pi}{6}+2 k \\pi-\\frac{5 \\pi}{6}\\right)=\\sin \\left(-\\frac{5 \\pi}{3}\\right)=\\frac{\\sqrt{3}}{2} \\cdot \\downarrow\n\\end{aligned}\n$$\n故选：D",
+            "index": 26,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "7. (2023. 全国乙卷) 甲乙两位同学从 6 种课外读物中各自选读 2 种, 则这两人选读的课外读物中恰有 1 种相同的选法共有（ ）\nA. 30 种\nB. 60 种\nC. 120 种\nD. 240 种",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【解析】【解答】根据题意, 两人选读的总选法有: $C_6^2 \\times C_6^2=15 \\times 15=225$ 种,其中, 两人选择的读物中都不同的选法有: $C_6^2 \\times C_4^2=15 \\times 6=90$ 种,两人选择的读物中都相同的选法有: $C_6^2=15$ 种,故两人选读的课外读物中恰有 1 种相同的选法有: $225-90-15=120$ 种,故选: C. ",
+            "index": 27,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "8. (2023. 全国乙卷) 已知圆雉 $\\mathrm{PO}$ 的底面半径为 $\\sqrt{3}, \\mathrm{O}$ 为底面圆心, $\\mathrm{PA}, \\mathrm{PB}$ 为圆雉的母线, $\\angle A O B=120^{\\circ}$, 若 $\\triangle P A B$ 的面积等于 $\\frac{9 \\sqrt{3}}{4}$, 则该圆雉的体积为 (  )\nA. $\\pi$\nB. $\\sqrt{6} \\pi$\nC. $3 \\pi$\nD. $3 \\sqrt{6} \\pi$",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【解析】【解答】如下图, 取 $\\mathrm{AB}$ 中点 $\\mathrm{C}$, 连接 $\\mathrm{PC}$,\n. 依题意得 $\\because \\angle \\mathrm{AOB}=120^{\\circ}, O A=O B=r=\\sqrt{3}, P A=P B, P O \\perp O C \\downarrow$\n$\\therefore O C \\perp A B, P C \\perp A B$,\n$\\therefore O C=\\frac{1}{2} O A=\\frac{\\sqrt{3}}{2}, A B=2 A C=\\sqrt{3} O A=3$,\n又 $\\because S_{\\triangle P A B}=\\frac{9 \\sqrt{3}}{4}=\\frac{1}{2} A B \\times P C=\\frac{1}{2} \\times 3 \\times P C$,\n$\\therefore P C=\\frac{3 \\sqrt{3}}{2}$,\n$\\therefore P O=\\sqrt{P C^2-O C^2}=\\sqrt{\\left(\\frac{3 \\sqrt{3}}{2}\\right)^2-\\left(\\frac{\\sqrt{3}}{2}\\right)^2}=\\sqrt{6}$,\n$\\therefore V_{\\text {圆雉 }}=\\frac{1}{3} S h=\\frac{1}{3} \\times \\pi r^2 \\times P O=\\sqrt{6} \\pi$.\n故选：B. ",
+            "index": 28,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "9. (2023.全国乙卷) 已知 $\\triangle A B C$ 为等腰直角三角形, $\\mathrm{AB}$ 为斜边, $\\triangle A B D$ 为等边三角形, 若二面角 $C-A B-D$ 为 $150^{\\circ}$, 则直线 $\\mathrm{CD}$ 与平面 $\\mathrm{ABC}$ 所成角的正切值为 (  )\nA. $\\frac{1}{5}$\nB. $\\frac{\\sqrt{2}}{5}$\nC. $\\frac{\\sqrt{3}}{5}$\nD. $\\frac{2}{5}$",
+            "answer": [
+                "C"
+            ],
+            "analysis": "$\\because \\triangle A B C$ 是以 $\\mathrm{AB}$ 为斜边的等腰直角三角形, $\\triangle A B D$ 是等边三角形 \n易得 $C E=2 a, D E=2 \\sqrt{3} a, C E \\perp A B, D E \\perp A B$,\n又 $\\because$ 平面 $A B C \\cap$ 平面 $A B D=A B$, 且二面角 $C-A B-D$ 为 $150^{\\circ}$,\n$\\therefore \\angle C E D=150^{\\circ}$,\n$\\therefore$ 在 $\\triangle C E D$ 中, 由余弦定理得 $C D^2=C E^2+D E^2-2 C E \\times D E \\times \\cos \\angle C E D=28 a^2$,\n$\\therefore C D=2 \\sqrt{7} a$,\n$\\therefore$ 由线面夹角定义结合直线在平面上的投影,\n易分析 $\\mathrm{CD}$ 在平面 $\\mathrm{ABC}$ 上的投影在 $\\mathrm{CE}$ 所在直线上,\n即直线 $\\mathrm{CD}$ 与平面 $\\mathrm{ABC}$ 所成角为 $\\angle \\mathrm{DCE}$\n$\\therefore$ 在 $\\triangle C E D$ 中, 由正弦定理得$\\frac{D E}{\\sin \\angle E C D}=\\frac{C D}{\\sin \\angle C E D}$,\n代入解得 $\\sin \\angle E C D=\\frac{\\sqrt{21}}{14}$,\n$\\because \\angle E C D \\in\\left(0, \\frac{\\pi}{6}\\right)$\n$\\therefore \\cos \\angle E C D=\\sqrt{1-\\sin ^2 \\angle E C D}=\\frac{5 \\sqrt{7}}{14}$\n$\\therefore \\tan \\angle E C D=\\frac{\\sin \\angle E C D}{\\cos \\angle E C D}=\\frac{\\sqrt{3}}{5}$,\n故选: C. ",
+            "index": 29,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "10. (2023. 全国乙卷) 已知等差数列 $\\left\\{a_n\\right\\}$ 的公差为 $\\frac{2 \\pi}{3}$, 集合 $S=\\left\\{\\cos a_n \\mid n \\in N^*\\right\\}$, 若 $S=\\{a, b\\}$, 则 $a b=()$\nA. -1\nB. $-\\frac{1}{2}$\nC. 0\nD. $\\frac{1}{2}$",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【解析】【解答】设等差数列 $\\left\\{a_n\\right\\}$ 的首项为 $a_1$, 由其公差为 $\\frac{2 \\pi}{3}$,\n. 易得 $a_2=a_1+\\frac{2 \\pi}{3}, a_3=a_1+\\frac{4 \\pi}{3}, a_4=a_1+2 \\pi \\ldots . a_n=a_1+\\frac{2 \\pi}{3}(n-1)$,\n. 即得 $\\cos a_1, \\cos a_2=\\cos \\left(a_1+\\frac{2 \\pi}{3}\\right), \\cos a_3=\\cos \\left(a_1+\\frac{4 \\pi}{3}\\right), \\cos a_4=\\cos \\left(a_1+2 \\pi\\right)=$ $\\cos a_1 \\ldots \\ldots \\cos a_n=\\cos \\left[a_1+\\frac{2 \\pi}{3}(n-1)\\right]$,\n由集合 $S$ 只含有两个元素, 即 $\\cos a_n=a$ 或 $\\cos a_n=b$,\n由上述可知不妨 $\\cos a_1=\\cos a_4=a$, 且 $a_1<a_1+\\frac{2 \\pi}{3}<a_1+\\frac{4 \\pi}{3}<a_1+2 \\pi$,故 $\\cos a_2=\\cos a_3=b$,\n$\\therefore a_2+a_3=2 \\pi$, 即 $\\left(a_1+\\frac{2 \\pi}{3}\\right)+\\left(a_1+\\frac{4 \\pi}{3}\\right)=2 \\pi$, 解得 $a_1=0$,\n$\\therefore a=\\cos a_1=\\cos 0=1, b=\\cos \\left(a_1+\\frac{2 \\pi}{3}\\right)=\\cos \\frac{2 \\pi}{3}=-\\frac{1}{2}$,\n故 $a b=-\\frac{1}{2}$",
+            "index": 30,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "11. (2023. 全国乙卷) 设 $\\mathrm{A}, \\mathrm{B}$ 为双曲线 $x^2-\\frac{y^2}{9}=1$ 上两点, 下列四个点中, 可为线段 $\\mathrm{AB}$ 中点的是 (  )\nA. $(1,1)$\nB. $(-1,2)$\nC. $(1,3)$\nD. $(-1,-4)$",
+            "answer": [
+                "D"
+            ],
+            "analysis": "$\\because A, B$ 在双曲线上则 $\\left\\{\\begin{array}{l}x_1{ }^2-\\frac{y_1{ }^2}{9}=1 \\\\ x_2{ }^2-\\frac{y_2{ }^2}{9}=1\\end{array}\\right.$, 两式相减得 $x_1{ }^2-x_2{ }^2-\\left(\\frac{y_1{ }^2}{9}-\\frac{y_2{ }^2}{9}\\right)=0, \\therefore \\frac{y_1{ }^2-y_2{ }^2}{x_1{ }^2-x_2{ }^2}=9$, $\\therefore k_{O M} \\cdot k_{A B}=\\frac{y_1^2-y_2^2}{x_1^2-x_2^2}=9$\nA: $M(1,1), \\therefore k_{O M}=1, k_{A B}=9, \\therefore$ 直线 $A B: y=9 x-8$,\n联立 $\\left\\{\\begin{array}{l}x^2-\\frac{y^2}{9}=1 \\\\ y=9 x-8\\end{array} \\stackrel{\\text { 消去 } y}{\\rightarrow} 72 x^2-144 x+73=0\\right.$,\n$\\because \\Delta=144^2-4 \\times 72 \\times 73=-288<0, \\therefore$ 直线与双曲线没有两个交点. 故 A 错误;\nB: $M(-1,2), \\therefore k_{O M}=-2, k_{A B}=-\\frac{9}{2}, \\therefore$ 直线 $A B: y=-\\frac{9}{2} x-\\frac{5}{2}$,\n联立 $\\left\\{\\begin{array}{l}x^2-\\frac{y^2}{9}=1 \\text { 消去 } y \\\\ y=-\\frac{9}{2} x-\\frac{5}{2}\\end{array} \\rightarrow 45 x^2+90 x+61=0\\right.$,\n$\\because \\Delta=90^2-4 \\times 45 \\times 61=-2880<0, \\therefore$ 直线与双曲线没有两个交点. 故 B 错误;\nC: $M(1,3), \\therefore k_{O M}=3, k_{A B}=3, \\therefore$ 直线 $A B: y=3 x$,\n由双曲线方程可得渐近线为 $y= \\pm \\frac{b}{a} x= \\pm 3 x, \\therefore$ 直线 $A B$ 为渐近线\n$\\therefore$ 直线与双曲线没有两个交点. 故 $\\mathrm{C}$ 错误;\nD: $M(-1,-4), \\therefore k_{O M}=4, k_{A B}=\\frac{9}{4}, \\therefore$ 直线 $A B: y=\\frac{9}{4} x-\\frac{7}{4}$,\n联立 $\\left\\{\\begin{array}{l}x^2-\\frac{y^2}{9}=1 \\text { 消去 } y \\\\ y=\\frac{9}{4} x-\\frac{7}{4}\\end{array} \\stackrel{\\rightarrow}{\\rightarrow} 63 x^2+126 x-193=0\\right.$,\n$\\because \\Delta=126^2+4 \\times 63 \\times 193>0, \\therefore$ 直线与双曲线有两个交点. 故 D 正确;\n故选: D",
+            "index": 31,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国乙卷理科",
+            "question": "12. (2023. 全国乙卷) 已知 $\\odot O$ 的半径为 1 , 直线 $\\mathrm{PA}$ 与 $\\odot O$ 相切于点 $\\mathrm{A}$, 直线 $\\mathrm{PB}$ 与 $\\odot O$ 交于 $\\mathrm{B}, \\mathrm{C}$两点, $\\mathrm{D}$ 为 $\\mathrm{BC}$ 的中点, 若 $|P O|=\\sqrt{2}$, 则 $\\overrightarrow{P A} \\cdot \\overrightarrow{P D}$ 的最大值为 ( )\nA. $\\frac{1+\\sqrt{2}}{2}$\nB. $\\frac{1+2 \\sqrt{2}}{2}$\nC. $1+\\sqrt{2}$\nD. $2+\\sqrt{2}$",
+            "answer": [
+                "A"
+            ],
+            "analysis": "$\\therefore \\mathrm{OA}=\\mathrm{r}=1, \\angle O A P=90^{\\circ}$,\n$$\n\\therefore|\\overrightarrow{A P}|=\\sqrt{|\\overrightarrow{P O}|^2-|\\overrightarrow{O A}|^2}=1\n$$\n$\\therefore \\triangle O A P$ 是等腰直角三角形, $\\angle \\mathrm{OPA}=45^{\\circ}$,又 $\\because \\mathrm{D}$ 为 $\\mathrm{BC}$ 的中点,\n$\\therefore \\mathrm{OD} \\perp \\mathrm{PC} \\downarrow$\n由 $|\\overrightarrow{P O}|=\\sqrt{2}$, 设 $\\angle O P D=\\alpha, \\angle A P D=\\theta \\downarrow$\n$$\n\\therefore P D=\\sqrt{2} \\cos \\alpha, \\cos \\theta=\\cos \\left(45^{\\circ}-\\alpha\\right)=\\frac{\\sqrt{2}}{2}(\\cos \\alpha+\\sin \\alpha) \\text {, }\n$$\n$$\n\\therefore \\overrightarrow{P A} \\cdot \\overrightarrow{P D}=|\\overrightarrow{P A}| \\cdot|\\overrightarrow{P D}| \\cos \\angle P A D=\\sqrt{2} \\cos \\alpha \\times \\frac{\\sqrt{2}}{2}(\\cos \\alpha+\\sin \\alpha)=\\cos ^2 \\alpha+\\sin \\alpha \\cos \\alpha \\downarrow\n$$\n- $\\overrightarrow{2} \\overrightarrow{P A} \\cdot \\overrightarrow{P D}=\\frac{1}{2}\\left(2 \\cos ^2 \\alpha+2 \\sin \\alpha \\cos \\alpha\\right)=\\frac{1}{2}(\\cos 2 \\alpha+\\sin 2 \\alpha+1)=\\frac{1}{2}\\left[\\sqrt{2} \\sin \\left(2 \\alpha+\\frac{\\pi}{4}\\right)+1\\right]$\n当且仅当 $\\sin \\left(2 \\alpha+\\frac{\\pi}{4}\\right)=1$ 时, $\\frac{1}{2}\\left[\\sqrt{2} \\sin \\left(2 \\alpha+\\frac{\\pi}{4}\\right)+1\\right]_{\\text {max }}=\\frac{\\sqrt{2}+1}{2}$\n· 即 $\\alpha=\\frac{\\pi}{8}+k \\pi\\left(k \\in Z^*\\right)$ 时, $\\overrightarrow{P A} \\cdot \\overrightarrow{P D_{\\text {max }}}=\\frac{\\sqrt{2}+1}{2}$.\n故选: $\\mathrm{A}$",
+            "index": 32,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "新课标Ⅰ卷",
+            "question": "1. 已知集合 $M=\\{-2,-1,0,1,2\\}, N=\\left\\{x \\mid x^2-x-6 \\geq 0\\right\\}$, 则 $M \\cap N=()$\nA. $\\{-2,-1,0,1\\}$\nB. $\\{0,1,2\\}$\nC. $\\{-2\\}$\nD. 2",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】方法一: 因为 $N=\\left\\{x \\mid x^2-x-6 \\geq 0\\right\\}=(-\\infty,-2] \\cup[3,+\\infty)$, 而 $M=\\{-2,-1,0,1,2\\}$,所以 $M \\cap N=\\{-2\\}$.\n故选: C.\n方法二: 因为 $M=\\{-2,-1,0,1,2\\}$, 将 $-2,-1,0,1,2$ 代入不等式 $x^2-x-6 \\geq 0$, 只有 -2 使不等式成立,所以 $M \\cap N=\\{-2\\}$.\n故选: C.",
+            "index": 33,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "新课标Ⅰ卷",
+            "question": "2. 已知 $z=\\frac{1-\\mathrm{i}}{2+2 \\mathrm{i}}$, 则 $z-\\bar{z}=()$\nA. $-\\mathrm{i}$\nB. $\\mathrm{i}$\nC. 0\nD. 1",
+            "answer": [
+                "A"
+            ],
+            "analysis": "【详解】因为 $z=\\frac{1-\\mathrm{i}}{2+2 \\mathrm{i}}=\\frac{(1-\\mathrm{i})(1-\\mathrm{i})}{2(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{-2 \\mathrm{i}}{4}=-\\frac{1}{2} \\mathrm{i}$, 所以 $\\bar{z}=\\frac{1}{2} \\mathrm{i}$, 即 $z-\\bar{z}=-\\mathrm{i}$.故选: A.",
+            "index": 34,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "新课标Ⅰ卷",
+            "question": "3. 已知向量 $\\vec{a}=(1,1), \\vec{b}=(1,-1)$, 若 $(\\vec{a}+\\lambda \\vec{b}) \\perp(\\vec{a}+\\mu \\vec{b})$, 则 $()$\nA. $\\lambda+\\mu=1$\nB. $\\lambda+\\mu=-1$\nC. $\\lambda \\mu=1$\nD. $\\lambda \\mu=-1$",
+            "answer": [
+                "D"
+            ],
+            "analysis": "【详解】因为 $\\vec{a}=(1,1), \\vec{b}=(1,-1)$, 所以 $\\vec{a}+\\lambda \\vec{b}=(1+\\lambda, 1-\\lambda), \\vec{a}+\\mu \\vec{b}=(1+\\mu, 1-\\mu)$,由 $(\\vec{a}+\\lambda \\vec{b}) \\perp(\\vec{a}+\\mu \\vec{b})$ 可得, $(\\vec{a}+\\lambda \\vec{b}) \\cdot(\\vec{a}+\\mu \\vec{b})=0$,即 $(1+\\lambda)(1+\\mu)+(1-\\lambda)(1-\\mu)=0$, 整理得: $\\lambda \\mu=-1$.故选: D.",
+            "index": 35,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "新课标Ⅰ卷",
+            "question": "4. 设函数 $f(x)=2^{x(x-a)}$ 在区间 $(0,1)$ 上单调递减, 则 $a$ 的取值范围是 $()$\nA. $(-\\infty,-2]$\nB. $[-2,0)$\nC. $(0,2]$\nD. $[2,+\\infty)$",
+            "answer": [
+                "D"
+            ],
+            "analysis": "【详解】函数 $y=2^x$ 在 $\\mathbf{R}$ 上单调递增, 而函数 $f(x)=2^{x(x-a)}$ 在区间 $(0,1)$ 上单调递减,则有函数 $y=x(x-a)=\\left(x-\\frac{a}{2}\\right)^2-\\frac{a^2}{4}$ 在区间 $(0,1)$ 上单调递减, 因此 $\\frac{a}{2} \\geq 1$, 解得 $a \\geq 2$,所以 $a$ 的取值范围是 $[2,+\\infty)$.故选: D",
+            "index": 36,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "新课标Ⅰ卷",
+            "question": "5. 设椭圆 $C_1: \\frac{x^2}{a^2}+y^2=1(a>1), C_2: \\frac{x^2}{4}+y^2=1$ 的离心率分别为 $e_1, e_2$. 若 $e_2=\\sqrt{3} e_1$, 则 $a=()$\nA. $\\frac{2 \\sqrt{3}}{3}$\nB. $\\sqrt{2}$\nC. $\\sqrt{3}$\nD. $\\sqrt{6}$",
+            "answer": [
+                "A"
+            ],
+            "analysis": "【详解】由 $e_2=\\sqrt{3} e_1$, 得 $e_2^2=3 e_1^2$, 因此 $\\frac{4-1}{4}=3 \\times \\frac{a^2-1}{a^2}$, 而 $a>1$, 所以 $a=\\frac{2 \\sqrt{3}}{3}$.故选: A",
+            "index": 37,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "新课标Ⅰ卷",
+            "question": "6. 过点 $(0,-2)$ 与圆 $x^2+y^2-4 x-1=0$ 相切的两条直线的夹角为 $\\alpha$, 则 $\\sin \\alpha=()$\nA. 1\nB. $\\frac{\\sqrt{15}}{4}$\nC. $\\frac{\\sqrt{10}}{4}$\nD. $\\frac{\\sqrt{6}}{4}$",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【详解】方法一: 因为 $x^2+y^2-4 x-1=0$, 即 $(x-2)^2+y^2=5$, 可得圆心 $C(2,0)$, 半径 $r=\\sqrt{5}$,过点 $P(0,-2)$ 作圆 $C$ 的切线, 切点为 $A, B$,\n因为 $|P C|=\\sqrt{2^2+(-2)^2}=2 \\sqrt{2}$, 则 $|P A|=\\sqrt{|P C|^2-r^2}=\\sqrt{3}$,\n可得 $\\sin \\angle A P C=\\frac{\\sqrt{5}}{2 \\sqrt{2}}=\\frac{\\sqrt{10}}{4}, \\cos \\angle A P C=\\frac{\\sqrt{3}}{2 \\sqrt{2}}=\\frac{\\sqrt{6}}{4}$,\n则 $\\sin \\angle A P B=\\sin 2 \\angle A P C=2 \\sin \\angle A P C \\cos \\angle A P C=2 \\times \\frac{\\sqrt{10}}{4} \\times \\frac{\\sqrt{6}}{4}=\\frac{\\sqrt{15}}{4}$,\n$\\cos \\angle A P B=\\cos 2 \\angle A P C=\\cos ^2 \\angle A P C-\\sin ^2 \\angle A P C=\\left(\\frac{\\sqrt{6}}{4}\\right)^2-\\left(\\frac{\\sqrt{10}}{4}\\right)^2=-\\frac{1}{4}<0$,\n即 $\\angle A P B$ 为钝角,\n所以 $\\sin \\alpha=\\sin (\\pi-\\angle A P B)=\\sin \\angle A P B=\\frac{\\sqrt{15}}{4}$;",
+            "index": 38,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "新课标Ⅰ卷",
+            "question": "7. 记 $S_n$ 为数列 $\\left\\{a_n\\right\\}$ 的前 $n$ 项和, 设甲: $\\left\\{a_n\\right\\}$ 为等差数列; 乙: $\\left\\{\\frac{S_n}{n}\\right\\}$ 为等差数列, 则 $()$\nA. 甲是乙的充分条件但不是必要条件\nB. 甲是乙的必要条件但不是充分条件\nC. 甲是乙的充要条件\nD. 甲既不是乙的充分条件也不是乙的必要条件",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】方法 1 , 甲: $\\left\\{a_n\\right\\}$ 为等差数列, 设其首项为 $a_1$, 公差为 $d$,则 $S_n=n a_1+\\frac{n(n-1)}{2} d, \\frac{S_n}{n}=a_1+\\frac{n-1}{2} d=\\frac{d}{2} n+a_1-\\frac{d}{2}, \\frac{S_{n+1}}{n+1}-\\frac{S_n}{n}=\\frac{d}{2}$,因此 $\\left\\{\\frac{S_n}{n}\\right\\}$ 为等差数列, 则甲是乙的充分条件;\n反之, 乙: $\\left\\{\\frac{S_n}{n}\\right\\}$ 为等差数列, 即 $\\frac{S_{n+1}}{n+1}-\\frac{S_n}{n}=\\frac{n S_{n+1}-(n+1) S_n}{n(n+1)}=\\frac{n a_{n+1}-S_n}{n(n+1)}$ 为常数, 设为 $t$,即 $\\frac{n a_{n+1}-S_n}{n(n+1)}=t$, 则 $S_n=n a_{n+1}-t \\cdot n(n+1)$, 有 $S_{n-1}=(n-1) a_n-t \\cdot n(n-1), n \\geq 2$,\n两式相减得: $a_n=n a_{n+1}-(n-1) a_n-2 t n$, 即 $a_{n+1}-a_n=2 t$, 对 $n=1$ 也成立,因此 $\\left\\{a_n\\right\\}$ 为等差数列, 则甲是乙的必要条件,\n所以甲是乙的充要条件, $\\mathrm{C}$ 正确.",
+            "index": 39,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "新课标Ⅰ卷",
+            "question": "8. 已知 $\\sin (\\alpha-\\beta)=\\frac{1}{3}, \\cos \\alpha \\sin \\beta=\\frac{1}{6}$, 则 $\\cos (2 \\alpha+2 \\beta)=()$.\nA. $\\frac{7}{9}$\nB. $\\frac{1}{9}$\nC. $-\\frac{1}{9}$\nD. $-\\frac{7}{9}$",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【详解】因为 $\\sin (\\alpha-\\beta)=\\sin \\alpha \\cos \\beta-\\cos \\alpha \\sin \\beta=\\frac{1}{3}$, 而 $\\cos \\alpha \\sin \\beta=\\frac{1}{6}$, 因此 $\\sin \\alpha \\cos \\beta=\\frac{1}{2}$,则 $\\sin (\\alpha+\\beta)=\\sin \\alpha \\cos \\beta+\\cos \\alpha \\sin \\beta=\\frac{2}{3}$,",
+            "index": 40,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "所以 $\\cos (2 \\alpha+2 \\beta)=\\cos 2(\\alpha+\\beta)=1-2 \\sin ^2(\\alpha+\\beta)=1-2 \\times\\left(\\frac{2}{3}\\right)^2=\\frac{1}{9}$.故选: 全国新高考Ⅱ卷",
+            "question": "1. 在复平面内,$(1+3i)(3-i)$对应的点位于()\nA. 第一象限\nB. 第二象限\nC. 第三象限\nD. 第四象限",
+            "answer": [
+                "A"
+            ],
+            "analysis": "【详解】因为 $(1+3 \\mathrm{i})(3-\\mathrm{i})=3+8 \\mathrm{i}-3 \\mathrm{i}^2=6+8 \\mathrm{i}$,则所求复数对应的点为 $(6,8)$, 位于第一象限.故选: A.",
+            "index": 41,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国新高考Ⅱ卷",
+            "question": "2. 设集合 $A=\\{0,-a\\}, B=\\{1, a-2,2 a-2\\}$, 若 $A \\subseteq B$, 则 $a=()$.\nA. 2\nB. 1\nC. $\\frac{2}{3}$\nD. -1",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【详解】因为 $A \\subseteq B$, 则有:\n若 $a-2=0$, 解得 $a=2$, 此时 $A=\\{0,-2\\}, B=\\{1,0,2\\}$, 不符合题意;若 $2 a-2=0$, 解得 $a=1$, 此时 $A=\\{0,-1\\}, B=\\{1,-1,0\\}$, 符合题意;综上所述: $a=1$.\n故选: B.",
+            "index": 42,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国新高考Ⅱ卷",
+            "question": "3. 某学校为了解学生参加体育运动的情况, 用比例分配的分层随机抽样方法作抽样调查, 拟从初中部和高中部两层共抽取 60 名学生, 已知该校初中部和高中部分别有 400 名和 200 名学生, 则不同的抽样结果共有 $()$.\nA. $\\mathrm{C}_{400}^{45} \\cdot \\mathrm{C}_{200}^{15}$ 种\nB. $\\mathrm{C}_{400}^{20} \\cdot \\mathrm{C}_{200}^{40}$ 种\nC. $\\mathrm{C}_{400}^{30} \\cdot \\mathrm{C}_{200}^{30}$ 种\nD. $\\mathrm{C}_{400}^{40} \\cdot \\mathrm{C}_{200}^{20}$ 种",
+            "answer": [
+                "D"
+            ],
+            "analysis": "【详解】根据分层抽样的定义知初中部共抽取 $60 \\times \\frac{400}{600}=40$ 人, 高中部共抽取 $60 \\times \\frac{200}{600}=20$,根据组合公式和分步计数原理则不同的抽样结果共有 $\\mathrm{C}_{400}^{40} \\cdot \\mathrm{C}_{200}^{20}$ 种.故选: D.",
+            "index": 43,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国新高考Ⅱ卷",
+            "question": "4. 若 $f(x)=(x+a) \\ln \\frac{2 x-1}{2 x+1}$ 为偶函数, 则 $a=()$.\nA. -1\nB. 0\nC. $\\frac{1}{2}$\nD. 1",
+            "answer": [
+                "B"
+            ],
+            "analysis": "【详解】因为 $f(x)$ 为偶函数, 则 $f(1)=f(-1) \\measuredangle:(1+a) \\ln \\frac{1}{3}=(-1+a) \\ln 3$, 解得 $a=0$,当 $a=0$ 时, $f(x)=x \\ln \\frac{2 x-1}{2 x+1},(2 x-1)(2 x+1)>0$, 解得 $x>\\frac{1}{2}$ 或 $x<-\\frac{1}{2}$,则其定义域为 $\\left\\{x|x\\rangle \\frac{1}{2}\\right.$ 或 $\\left.x<-\\frac{1}{2}\\right\\}$, 关于原点对称.\n$$\nf(-x)=(-x) \\ln \\frac{2(-x)-1}{2(-x)+1}=(-x) \\ln \\frac{2 x+1}{2 x-1}=(-x) \\ln \\left(\\frac{2 x-1}{2 x+1}\\right)^{-1}=x \\ln \\frac{2 x-1}{2 x+1}=f(x) \\text {, }\n$$\n故此时 $f(x)$ 为偶函数.\n故选: B.",
+            "index": 44,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国新高考Ⅱ卷",
+            "question": "5. 已知椭圆 $C: \\frac{x^2}{3}+y^2=1$ 的左、右焦点分别为 $F_1, F_2$, 直线 $y=x+m$ 与 $C$ 交于 $A, B$ 两点, 若$\\triangle F_1 A B$ 面积是$\\triangle F_2 A B$ 面积的 2 倍, 则 $m=()$.\nA. $\\frac{2}{3}$\nB. $\\frac{\\sqrt{2}}{3}$\nC. $-\\frac{\\sqrt{2}}{3}$\nD. $-\\frac{2}{3}$",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】将直线 $y=x+m$ 与椭圆联立 $\\left\\{\\begin{array}{l}y=x+m \\\\ \\frac{x^2}{3}+y^2=1\\end{array}\\right.$, 消去 $y$ 可得 $4 x^2+6 m x+3 m^2-3=0$,因为直线与椭圆相交于 $A, B$ 点, 则 $\\Delta=36 m^2-4 \\times 4\\left(3 m^2-3\\right)>0$, 解得 $-2<m<2$,设 $F_1$ 到 $A B$ 距离 $d_1, F_2$ 到 $A B$ 距离 $d_2$, 易知 $F_1(-\\sqrt{2}, 0), F_2(\\sqrt{2}, 0)$,\n则 $d_1=\\frac{|-\\sqrt{2}+m|}{\\sqrt{2}}, d_2=\\frac{|\\sqrt{2}+m|}{\\sqrt{2}}$, $\\frac{S_{\\triangle F_1 A B}}{S_{\\triangle F_2 A B}}=\\frac{\\frac{|-\\sqrt{2}+m|}{\\sqrt{2}}}{\\frac{|\\sqrt{2}+m|}{\\sqrt{2}}}=\\frac{|-\\sqrt{2}+m|}{|\\sqrt{2}+m|}=2$, 解得 $m=-\\frac{\\sqrt{2}}{3}$ 或 $-3 \\sqrt{2}$ (舍去),故选: C.",
+            "index": 45,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国新高考Ⅱ卷",
+            "question": "6. 已知函数 $f(x)=a \\mathrm{e}^x-\\ln x$ 在区间 $(1,2)$ 上单调递增，则 $a$ 的最小值为 $()$.\nA. $e^2$\nB. e\nC. $\\mathrm{e}^{-1}$\nD. $\\mathrm{e}^{-2}$",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】依题可知, $f^{\\prime}(x)=a \\mathrm{e}^x-\\frac{1}{x} \\geq 0$ 在 $(1,2)$ 上恒成立, 显然 $a>0$, 所以 $x \\mathrm{e}^x \\geq \\frac{1}{a}$,设 $g(x)=x \\mathrm{e}^x, x \\in(1,2)$, 所以 $g^{\\prime}(x)=(x+1) \\mathrm{e}^x>0$, 所以 $g(x)$ 在 $(1,2)$ 上单调递增, $g(x)>g(1)=\\mathrm{e}$, 故 $\\mathrm{e} \\geq \\frac{1}{a}$, 即 $a \\geq \\frac{1}{\\mathrm{e}}=\\mathrm{e}^{-1}$, 即 $a$ 的最小值为 $\\mathrm{e}^{-1}$.故选: C.",
+            "index": 46,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国新高考Ⅱ卷",
+            "question": "7. 已知 $\\alpha$ 为锐角, $\\cos \\alpha=\\frac{1+\\sqrt{5}}{4}$, 则 $\\sin \\frac{\\alpha}{2}=()$.\nA. $\\frac{3-\\sqrt{5}}{8} \\rightarrow$\nB. $\\frac{-1+\\sqrt{5}}{8} \\rightarrow$\nC. $\\frac{3-\\sqrt{5}}{4} \\rightarrow$\nD. $\\frac{-1+\\sqrt{5}}{4}$",
+            "answer": [
+                "D"
+            ],
+            "analysis": "【详解】因为 $\\cos \\alpha=1-2 \\sin ^2 \\frac{\\alpha}{2}=\\frac{1+\\sqrt{5}}{4}$, 而 $\\alpha$ 为锐角,解得: $\\sin \\frac{\\alpha}{2}=\\sqrt{\\frac{3-\\sqrt{5}}{8}}=\\sqrt{\\frac{(\\sqrt{5}-1)^2}{16}}=\\frac{\\sqrt{5}-1}{4}$.故选: D.",
+            "index": 47,
+            "score": 5
+        },
+        {
+            "year": "2023",
+            "category": "全国新高考Ⅱ卷",
+            "question": "8. 记 $S_n$ 为等比数列 $\\left\\{a_n\\right\\}$ 的前 $n$ 项和, 若 $S_4=-5, S_6=21 S_2$, 则 $S_8=()$.\nA. 120\nB. 85\nC. -85\nD. -120",
+            "answer": [
+                "C"
+            ],
+            "analysis": "【详解】方法一：设等比数列 $\\left\\{a_n\\right\\}$ 的公比为 $q$, 首项为 $a_1$,\n若 $q=1$, 则 $S_6=6 a_1=3 \\times 2 a_1=3 S_2$, 与题意不符, 所以 $q \\neq 1$;\n由 $S_4=-5, S_6=21 S_2$ 可得, $\\frac{a_1\\left(1-q^4\\right)}{1-q}=-5, \\frac{a_1\\left(1-q^6\\right)}{1-q}=21 \\times \\frac{a_1\\left(1-q^2\\right)}{1-q}$ (1),\n由(1)可得, $1+q^2+q^4=21$, 解得: $q^2=4$,\n所以 $S_8=\\frac{a_1\\left(1-q^8\\right)}{1-q}=\\frac{a_1\\left(1-q^4\\right)}{1-q} \\times\\left(1+q^4\\right)=-5 \\times(1+16)=-85$.\n故选: C.",
+            "index": 48,
+            "score": 5
+        }
+    ]
+}
