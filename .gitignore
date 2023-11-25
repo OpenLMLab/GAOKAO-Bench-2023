@@ -6,4 +6,4 @@ Bench/OBJ_score_evaluation.py
 *.zip
 *.py
 README_v0.md
-.DS_Store
+**/.DS_Store
